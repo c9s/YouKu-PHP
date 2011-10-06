@@ -1,0 +1,17 @@
+
+# YouKu.php
+
+## Methods
+
+### getEmbeddedFlash
+
+Currently, YouKu.php only supports one method.
+
+    $youku = new YouKu( $url );
+    $html = $youku->getEmbeddedFlash();
+
+## Helper function
+
+    $url = 'http://v.youku.com/v_playlist/f16157772o1p0.html';
+    echo get_youku_flash_html('http://v.youku.com/v_playlist/f16157772o1p0.html' , true);
+
